@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema-Gerenciamento-Cafeteria", "Sistema-Gerenciamento-Cafeteria\Sistema-Gerenciamento-Cafeteria.csproj", "{8CD99513-B20E-411B-A8E4-718F56259D6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CD99513-B20E-411B-A8E4-718F56259D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD99513-B20E-411B-A8E4-718F56259D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD99513-B20E-411B-A8E4-718F56259D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD99513-B20E-411B-A8E4-718F56259D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
+		SolutionGuid = {5A1ED054-594B-4CE0-A0E4-099F7F59915A}
+	EndGlobalSection
+EndGlobal

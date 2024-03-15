@@ -248,6 +248,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\CategoriaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -269,7 +270,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CafeEntities.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Categoria.cs">
+      <DependentUpon>CafeEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChangePassword.cs" />
     <Compile Include="Models\CustomAuthenticationFilter.cs" />
+    <Compile Include="Models\Response.cs" />
     <Compile Include="Models\TokenClaims.cs" />
     <Compile Include="Models\TokenManagement.cs" />
     <Compile Include="Models\USUARIOS.cs">
@@ -345,6 +351,7 @@
     <Content Include="Scripts\jquery-3.7.1.slim.js" />
     <Content Include="Scripts\jquery-3.7.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Template\forgot-password.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

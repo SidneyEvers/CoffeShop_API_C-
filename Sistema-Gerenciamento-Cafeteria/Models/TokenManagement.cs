@@ -53,8 +53,10 @@ namespace Sistema_Gerenciamento_Cafeteria.Models
             }
         }
         
+        /*Método faz a validação do Token*/
         public static TokenClaims ValidateToken(string RawToken)
         {
+            
             string[] array = RawToken.Split(' ');
             var token = array[1];
             ClaimsPrincipal principal = GetPrincipal(token);

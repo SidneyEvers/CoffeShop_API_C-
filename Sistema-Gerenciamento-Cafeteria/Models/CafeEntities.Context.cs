@@ -26,5 +26,6 @@ namespace Sistema_Gerenciamento_Cafeteria.Models
         }
     
         public virtual DbSet<USUARIOS> USUARIOS { get; set; }
+        public virtual DbSet<Categoria> Categoria { get; set; }
     }
 }

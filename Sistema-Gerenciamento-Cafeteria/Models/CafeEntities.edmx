@@ -12,6 +12,31 @@
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="name" Type="varchar" MaxLength="255" />
         </EntityType>
+        <EntityType Name="Faturas">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="uuid" Type="varchar" MaxLength="250" />
+          <Property Name="nome" Type="varchar" MaxLength="255" />
+          <Property Name="email" Type="varchar" MaxLength="200" />
+          <Property Name="numeroContato" Type="varchar" MaxLength="20" />
+          <Property Name="metodoPagamento" Type="varchar" MaxLength="50" />
+          <Property Name="valorTotal" Type="int" />
+          <Property Name="detalhesProduto" Type="nvarchar(max)" />
+          <Property Name="criadoPor" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Produtos">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nome" Type="varchar" MaxLength="255" />
+          <Property Name="categoriaId" Type="int" />
+          <Property Name="descricao" Type="varchar" MaxLength="255" />
+          <Property Name="preco" Type="int" />
+          <Property Name="status" Type="varchar" MaxLength="20" />
+        </EntityType>
         <EntityType Name="USUARIOS">
           <Key>
             <PropertyRef Name="id" />
@@ -26,6 +51,8 @@
         </EntityType>
         <EntityContainer Name="CafeModelStoreContainer">
           <EntitySet Name="Categoria" EntityType="Self.Categoria" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Faturas" EntityType="Self.Faturas" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Produtos" EntityType="Self.Produtos" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
@@ -47,6 +74,8 @@
         <EntityContainer Name="CafeEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" />
           <EntitySet Name="Categoria" EntityType="CafeModel.Categoria" />
+          <EntitySet Name="Produtos" EntityType="CafeModel.Produtos" />
+          <EntitySet Name="Faturas" EntityType="CafeModel.Faturas" />
         </EntityContainer>
         <EntityType Name="Categoria">
           <Key>
@@ -54,6 +83,31 @@
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Produtos">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="categoriaId" Type="Int32" />
+          <Property Name="descricao" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="preco" Type="Int32" />
+          <Property Name="status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Faturas">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="uuid" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="nome" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="numeroContato" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="metodoPagamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="valorTotal" Type="Int32" />
+          <Property Name="detalhesProduto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="criadoPor" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -78,6 +132,33 @@
             <EntityTypeMapping TypeName="CafeModel.Categoria">
               <MappingFragment StoreEntitySet="Categoria">
                 <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Produtos">
+            <EntityTypeMapping TypeName="CafeModel.Produtos">
+              <MappingFragment StoreEntitySet="Produtos">
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="preco" ColumnName="preco" />
+                <ScalarProperty Name="descricao" ColumnName="descricao" />
+                <ScalarProperty Name="categoriaId" ColumnName="categoriaId" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Faturas">
+            <EntityTypeMapping TypeName="CafeModel.Faturas">
+              <MappingFragment StoreEntitySet="Faturas">
+                <ScalarProperty Name="criadoPor" ColumnName="criadoPor" />
+                <ScalarProperty Name="detalhesProduto" ColumnName="detalhesProduto" />
+                <ScalarProperty Name="valorTotal" ColumnName="valorTotal" />
+                <ScalarProperty Name="metodoPagamento" ColumnName="metodoPagamento" />
+                <ScalarProperty Name="numeroContato" ColumnName="numeroContato" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="uuid" ColumnName="uuid" />
                 <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>

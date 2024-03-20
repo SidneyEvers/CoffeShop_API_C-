@@ -53,5 +53,37 @@ namespace Sistema_Gerenciamento_Cafeteria.Controllers
             }
         }
 
+        [HttpPost,Route("updateCategory")]
+        [CustomAuthenticationFilter]
+        public HttpResponseMessage UpdateCategory(Categoria categoria)
+        {
+            try
+            {
+                var token = Request.Headers.GetValues("authorization").First();
+                TokenClaims tokenClaims = TokenManagement.ValidateToken(token);
+                if (tokenClaims.role != "admin")
+                {
+                    return Request.CreateResponse(HttpStatusCode.Unauthorized);
+                }
+                Categoria categoriaObj = db.Categoria.Find(categoria.id);
+                if(categoriaObj == null)
+                {
+                    response.Message = "Categoria ID não foi encontrado.";
+                    return Request.CreateResponse(HttpStatusCode.OK, response);
+                }
+                categoriaObj.name = categoria.name;
+                db.Entry(categoriaObj).State = System.Data.Entity.EntityState.Modified;
+                db.SaveChanges();
+                response.Message = "Categoria atualizada com sucesso";
+                return Request.CreateResponse(HttpStatusCode.OK, response);
+            }
+            
+
+            catch(Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
+            }
+        }
+
     }
 }

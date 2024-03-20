@@ -14,5 +14,40 @@
   </EntityType>
   <EntityContainer Name="CafeEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" />
+    <EntitySet Name="Categoria" EntityType="CafeModel.Categoria" />
+    <EntitySet Name="Produtos" EntityType="CafeModel.Produtos" />
+    <EntitySet Name="Faturas" EntityType="CafeModel.Faturas" />
   </EntityContainer>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Produtos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="categoriaId" Type="Int32" />
+    <Property Name="descricao" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="preco" Type="Int32" />
+    <Property Name="status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Faturas">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="uuid" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="nome" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="numeroContato" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="metodoPagamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="valorTotal" Type="Int32" />
+    <Property Name="detalhesProduto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="criadoPor" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

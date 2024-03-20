@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|c:\\users\\sidney\\source\\repos\\sistema-gerenciamento-cafeteria\\sistema-gerenciamento-cafeteria\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|c:\\users\\sidney\\source\\repos\\sistema-gerenciamento-cafeteria\\sistema-gerenciamento-cafeteria\\controllers\\faturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\controllers\\faturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\models\\cafeentities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\models\\cafeentities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|c:\\users\\sidney\\source\\repos\\sistema-gerenciamento-cafeteria\\sistema-gerenciamento-cafeteria\\models\\customauthenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\models\\customauthenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|c:\\users\\sidney\\source\\repos\\sistema-gerenciamento-cafeteria\\sistema-gerenciamento-cafeteria\\models\\tokenmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\models\\tokenmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\models\\tokenmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|c:\\users\\sidney\\source\\repos\\sistema-gerenciamento-cafeteria\\sistema-gerenciamento-cafeteria\\models\\tokenclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\models\\tokenclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\models\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\models\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\sistema-gerenciamento-cafeteria\\template\\forgot-password.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD99513-B20E-411B-A8E4-718F56259D6E}|Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria.csproj|solutionrelative:sistema-gerenciamento-cafeteria\\template\\forgot-password.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,47 +58,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1735,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "USUARIOS.cs",
               "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\USUARIOS.cs",
               "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Models\\USUARIOS.cs",
               "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\USUARIOS.cs",
               "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Models\\USUARIOS.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T00:43:24.702Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomAuthenticationFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\CustomAuthenticationFilter.cs",
-              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Models\\CustomAuthenticationFilter.cs",
-              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\CustomAuthenticationFilter.cs",
-              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Models\\CustomAuthenticationFilter.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwCYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T19:43:07.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TokenClaims.cs",
-              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\TokenClaims.cs",
-              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Models\\TokenClaims.cs",
-              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\TokenClaims.cs",
-              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Models\\TokenClaims.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T19:12:44.467Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -94,33 +91,128 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FaturaController.cs",
+              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Controllers\\FaturaController.cs",
+              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Controllers\\FaturaController.cs",
+              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Controllers\\FaturaController.cs",
+              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Controllers\\FaturaController.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAIwM4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T19:29:34.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwFkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T15:48:53.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Controllers\\CategoriaController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T21:43:35.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CafeEntities.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\CafeEntities.edmx",
+              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Models\\CafeEntities.edmx",
+              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\CafeEntities.edmx [Diagram1]",
+              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Models\\CafeEntities.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-03-15T21:40:58.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Web.config",
+              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Web.config",
+              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Web.config",
+              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-15T18:14:59.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "forgot-password.html",
+              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Template\\forgot-password.html",
+              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Template\\forgot-password.html",
+              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Template\\forgot-password.html",
+              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Template\\forgot-password.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-15T18:09:00.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChangePassword.cs",
+              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\ChangePassword.cs",
+              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Models\\ChangePassword.cs",
+              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\ChangePassword.cs",
+              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Models\\ChangePassword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:49:03.461Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Models\\Response.cs",
+              "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\Response.cs",
+              "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Models\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:48:39.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TokenManagement.cs",
               "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\TokenManagement.cs",
               "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Models\\TokenManagement.cs",
               "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Models\\TokenManagement.cs",
               "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Models\\TokenManagement.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAADwv08AAAAfAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T13:50:30.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T13:50:30.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\Controllers\\UserController.cs",
               "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAADwv04AAAAlAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAgwA4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T00:46:00.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T00:46:00.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\Sidney\\source\\repos\\Sistema-Gerenciamento-Cafeteria\\Sistema-Gerenciamento-Cafeteria\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "Sistema-Gerenciamento-Cafeteria\\App_Start\\WebApiConfig.cs",
@@ -128,8 +220,7 @@
               "RelativeToolTip": "Sistema-Gerenciamento-Cafeteria\\App_Start\\WebApiConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T00:23:56.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T00:23:56.92Z"
             }
           ]
         }
